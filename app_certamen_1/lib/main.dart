@@ -33,6 +33,55 @@ class C1 extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: const Text('<-    Caterpillar_shoes.id'),
+          
+        ),
+        bottomNavigationBar: BottomAppBar( 
+        
+       child: Row(
+                children: [
+                  Expanded(
+                    child: Container(
+                      height: 50,
+                      color: const Color.fromARGB(255, 142, 68, 173),
+                      child: const Center(
+                        child: Text(
+                          'Seguidores',
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 1),
+                  Expanded(
+                    child: Container(
+                      height: 50,
+                      color: const Color.fromARGB(255, 155, 89, 182),
+                      child: const Center(
+                        child: Text(
+                          'Centro',
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 1),
+                  Expanded(
+                    child: Container(
+                      height: 50,
+                      color: const Color.fromARGB(255, 155, 89, 182),
+                      child: const Center(
+                        child: Text(
+                          'Mitad Derecha',
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+         
+        
+          
         ),
         body: ListView(
           padding: const EdgeInsets.all(0.0),
@@ -83,7 +132,7 @@ class C1 extends StatelessWidget {
 
 
             // Primer Card con encabezado
-            Card(
+ Card(
              // margin: const EdgeInsets.only(bottom: 8.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -117,17 +166,20 @@ class C1 extends StatelessWidget {
                             ),
                             ],
                           ),
-                          const SizedBox(width: 10),
-                    Padding(
-                    padding: const EdgeInsets.all(8.0),
-                     
-                    child: ElevatedButton(
+                          const SizedBox(width: 170),
+                    Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                     ElevatedButton(
                       onPressed: () {},
                        style: ButtonStyle(
-                       alignment: Alignment.centerRight,
+                       
                           ),
                       child: Text('Seguir'),
                     ),
+
+                    ]
+                     
                   ),
                       ],
                     ),
@@ -136,9 +188,7 @@ class C1 extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 1,),
-
-
-            Card(
+             Card(
              // margin: const EdgeInsets.only(bottom: 8.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -172,17 +222,20 @@ class C1 extends StatelessWidget {
                             ),
                             ],
                           ),
-                          const SizedBox(width: 10),
-                    Padding(
-                    padding: const EdgeInsets.all(8.0),
-                     
-                    child: ElevatedButton(
+                          const SizedBox(width: 170),
+                    Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                     ElevatedButton(
                       onPressed: () {},
                        style: ButtonStyle(
-                       alignment: Alignment.centerRight,
+                       
                           ),
                       child: Text('Seguir'),
                     ),
+
+                    ]
+                     
                   ),
                       ],
                     ),
@@ -191,7 +244,7 @@ class C1 extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 1,),
-            Card(
+             Card(
              // margin: const EdgeInsets.only(bottom: 8.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -225,17 +278,20 @@ class C1 extends StatelessWidget {
                             ),
                             ],
                           ),
-                          const SizedBox(width: 10),
-                    Padding(
-                    padding: const EdgeInsets.all(8.0),
-                     
-                    child: ElevatedButton(
+                          const SizedBox(width: 170),
+                    Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                     ElevatedButton(
                       onPressed: () {},
                        style: ButtonStyle(
-                       alignment: Alignment.centerRight,
+                       
                           ),
                       child: Text('Seguir'),
                     ),
+
+                    ]
+                     
                   ),
                       ],
                     ),
@@ -244,7 +300,7 @@ class C1 extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 1,),
-            Card(
+             Card(
              // margin: const EdgeInsets.only(bottom: 8.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -278,17 +334,20 @@ class C1 extends StatelessWidget {
                             ),
                             ],
                           ),
-                          const SizedBox(width: 10),
-                    Padding(
-                    padding: const EdgeInsets.all(8.0),
-                     
-                    child: ElevatedButton(
+                          const SizedBox(width: 170),
+                    Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                     ElevatedButton(
                       onPressed: () {},
                        style: ButtonStyle(
-                       alignment: Alignment.centerRight,
+                       
                           ),
                       child: Text('Seguir'),
                     ),
+
+                    ]
+                     
                   ),
                       ],
                     ),
@@ -297,7 +356,7 @@ class C1 extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 1,),
-            Card(
+             Card(
              // margin: const EdgeInsets.only(bottom: 8.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -331,17 +390,20 @@ class C1 extends StatelessWidget {
                             ),
                             ],
                           ),
-                          const SizedBox(width: 10),
-                    Padding(
-                    padding: const EdgeInsets.all(8.0),
-                     
-                    child: ElevatedButton(
+                          const SizedBox(width: 170),
+                    Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                     ElevatedButton(
                       onPressed: () {},
                        style: ButtonStyle(
-                       alignment: Alignment.centerRight,
+                       
                           ),
                       child: Text('Seguir'),
                     ),
+
+                    ]
+                     
                   ),
                       ],
                     ),
@@ -350,7 +412,7 @@ class C1 extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 1,),
-            Card(
+             Card(
              // margin: const EdgeInsets.only(bottom: 8.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -384,17 +446,20 @@ class C1 extends StatelessWidget {
                             ),
                             ],
                           ),
-                          const SizedBox(width: 10),
-                    Padding(
-                    padding: const EdgeInsets.all(8.0),
-                     
-                    child: ElevatedButton(
+                          const SizedBox(width: 170),
+                    Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                     ElevatedButton(
                       onPressed: () {},
                        style: ButtonStyle(
-                       alignment: Alignment.centerRight,
+                       
                           ),
                       child: Text('Seguir'),
                     ),
+
+                    ]
+                     
                   ),
                       ],
                     ),
@@ -403,7 +468,7 @@ class C1 extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 1,),
-            Card(
+             Card(
              // margin: const EdgeInsets.only(bottom: 8.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -437,17 +502,20 @@ class C1 extends StatelessWidget {
                             ),
                             ],
                           ),
-                          const SizedBox(width: 10),
-                    Padding(
-                    padding: const EdgeInsets.all(8.0),
-                     
-                    child: ElevatedButton(
+                          const SizedBox(width: 170),
+                    Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                     ElevatedButton(
                       onPressed: () {},
                        style: ButtonStyle(
-                       alignment: Alignment.centerRight,
+                       
                           ),
                       child: Text('Seguir'),
                     ),
+
+                    ]
+                     
                   ),
                       ],
                     ),
@@ -456,7 +524,7 @@ class C1 extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 1,),
-            Card(
+             Card(
              // margin: const EdgeInsets.only(bottom: 8.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -490,17 +558,20 @@ class C1 extends StatelessWidget {
                             ),
                             ],
                           ),
-                          const SizedBox(width: 10),
-                    Padding(
-                    padding: const EdgeInsets.all(8.0),
-                     
-                    child: ElevatedButton(
+                          const SizedBox(width: 170),
+                    Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                     ElevatedButton(
                       onPressed: () {},
                        style: ButtonStyle(
-                       alignment: Alignment.centerRight,
+                       
                           ),
                       child: Text('Seguir'),
                     ),
+
+                    ]
+                     
                   ),
                       ],
                     ),
@@ -509,10 +580,11 @@ class C1 extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 1,),
-            Card(
+             Card(
              // margin: const EdgeInsets.only(bottom: 8.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
+                
                 children: [
                   // Header de la card
                   Padding(
@@ -543,17 +615,20 @@ class C1 extends StatelessWidget {
                             ),
                             ],
                           ),
-                          const SizedBox(width: 10),
-                    Padding(
-                    padding: const EdgeInsets.all(8.0),
-                     
-                    child: ElevatedButton(
+                          const SizedBox(width: 170),
+                    Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                     ElevatedButton(
                       onPressed: () {},
                        style: ButtonStyle(
-                       alignment: Alignment.centerRight,
+                       
                           ),
                       child: Text('Seguir'),
                     ),
+
+                    ]
+                     
                   ),
                       ],
                     ),
@@ -562,7 +637,7 @@ class C1 extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 1,),
-            Card(
+             Card(
              // margin: const EdgeInsets.only(bottom: 8.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -596,70 +671,20 @@ class C1 extends StatelessWidget {
                             ),
                             ],
                           ),
-                          const SizedBox(width: 10),
-                    Padding(
-                    padding: const EdgeInsets.all(8.0),
-                     
-                    child: ElevatedButton(
+                          const SizedBox(width: 170),
+                    Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                     ElevatedButton(
                       onPressed: () {},
                        style: ButtonStyle(
-                       alignment: Alignment.centerRight,
+                       
                           ),
                       child: Text('Seguir'),
                     ),
-                  ),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            const SizedBox(height: 1,),
-            Card(
-             // margin: const EdgeInsets.only(bottom: 8.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  // Header de la card
-                  Padding(
-                    padding: const EdgeInsets.all(16.0),
-                    child: Row(
-                      children: [
-                        const CircleAvatar(
-                          backgroundColor: Colors.blue,
-                         // child: Icon(Icons.person, color: Colors.white),
-                        ),
-                        const SizedBox(width: 13),
-                           const Column(
-                            children: [
-                            Text(
-                           'Jose.rodon.587',
-                            style: TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.bold,
-                          ),
-                            ),
 
-                            Text(
-                           'Jose.rodon.587',
-                            style: TextStyle(
-                            fontSize: 10,
-                            fontWeight: FontWeight.bold,
-                          ),
-                            ),
-                            ],
-                          ),
-                          const SizedBox(width: 10),
-                    Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    ]
                      
-                    child: ElevatedButton(
-                      onPressed: () {},
-                       style: ButtonStyle(
-                       alignment: Alignment.centerRight,
-                          ),
-                      child: Text('Seguir'),
-                    ),
                   ),
                       ],
                     ),
